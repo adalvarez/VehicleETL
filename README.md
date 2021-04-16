@@ -19,3 +19,6 @@ To run locally, create a file on main folder of the processes module with the pr
 * `$ npm run test` Test the module.
 * `$ npm run clean` Clean build.
 * `$ npm run build-babel` Generate babel build.
+
+## Assumptions
+* A file should not be rejected because of its shape. This means if a file does not have alternative fields it will add an id in case the UUID does not come.
