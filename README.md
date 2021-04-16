@@ -78,6 +78,8 @@ Endpoints for publisher API:
 
 ## CSV file expectations
 
+CSV headers are not case sensitive.
+
 #### Unknown
 
 > UUID,VIN,Make,Model,Mileage,Year,Price,Zip_Code,Create_Date,Update_Date
